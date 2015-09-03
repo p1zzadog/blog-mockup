@@ -107,7 +107,6 @@ large navbar
 		border-radius:0;
 
 	}
-
 }
 
 /*--
@@ -123,12 +122,12 @@ sidebar
 		display: inline-block;
 		position:relative;
 		left:960px;
-		height:192px;
+		height:249px;
 	}
 
 	.blog-body {
 		position:relative;
-		bottom:192px;
+		bottom:249px;
 	}
 
 	.sidebar-content {
