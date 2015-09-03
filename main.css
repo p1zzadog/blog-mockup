@@ -1,5 +1,5 @@
 body {
-	background-color:lightgray;
+	background-color:gray;
 }
 
 @media screen and (min-width: 600px) {
@@ -110,12 +110,76 @@ large navbar
 
 }
 
+/*--
+sidebar
+--*/
 
+.sidebar-container {
+	display:none;
+}
 
+@media screen and (min-width:1500px) {
+	.sidebar-container {
+		display: inline-block;
+		position:relative;
+		left:960px;
+		height:192px;
+	}
 
+	.blog-body {
+		position:relative;
+		bottom:192px;
+	}
 
+	.sidebar-content {
+	box-sizing: border-box;
+	background-color:lightgray;
+	padding:1em;
+	border-bottom:5px solid black;
+	}
 
+	.sidebar-list {
+		margin:0px;
+		padding: 0 0 1em 0;
+		list-style: none;
+		font-weight: 600;
+	}
 
+	.sidebar-list-item {
+		font-weight: 400;
+		text-indent: 1em;
+	}
+}
+
+/*--------------
+BLOG BODY
+----------------*/
+
+.blog-body {
+	box-sizing: border-box;
+	background-color:lightgray;
+	margin: 0px 10px 0px 10px;
+	padding:0em 1.5em;
+
+}
+
+/*--
+Article Title
+--*/
+
+.article-title {
+	margin-top:0px;
+	padding:1.5em 0em;
+}
+
+.article-title-paragraph {
+	margin:1em;
+	padding:0em 1em 1em 1em;
+}
+
+/*--
+Section Head
+--*/
 
 
 
