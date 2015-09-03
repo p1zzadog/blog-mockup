@@ -11,6 +11,16 @@ body {
 	}
 }
 
+/*----
+GENERAL DESING
+---*/
+
+.text-link {
+	text-decoration:none;
+	color:black;
+}
+
+
 /*-------------
 DEFAULT MOBILE HEADER
 ---------------*/
@@ -57,6 +67,7 @@ DEFAULT MOBILE NAVBAR
 
 .nav-list-item{
 	background-color:#306;
+	border:5px solid #1a0033;
 	border-radius:0.5em;
 	height:1.5em;
 	margin:0.25em 0px 0.25em 0px;
@@ -96,6 +107,7 @@ large navbar
 		height:2em;
 		width:7em;
 		margin:0;
+		border:none;
 	}
 
 	.nav-list-anchor {
@@ -145,7 +157,7 @@ sidebar
 	}
 
 	.sidebar-list-item {
-		font-weight: 400;
+		font-weight: 300;
 		text-indent: 1em;
 	}
 }
@@ -157,8 +169,8 @@ BLOG BODY
 .blog-body {
 	box-sizing: border-box;
 	background-color:lightgray;
-	margin: 0px 10px 0px 10px;
-	padding:0em 1.5em;
+	margin: 0px 10px 10px 10px;
+	padding:0em 1.5em 1.5em 1.5em;
 
 }
 
@@ -167,24 +179,82 @@ Article Title
 --*/
 
 .article-title {
-	margin-top:0px;
-	padding:1.5em 0em;
+	margin:0px;
+	padding:1em 0em;
 }
 
 .article-title-paragraph {
-	margin:1em;
-	padding:0em 1em 1em 1em;
+	/*margin:1em;*/
+	/*padding:0em 1em 1em 1em;*/
 }
 
 /*--
-Section Head
+Section title
 --*/
 
+.section-title{
+	border-bottom:1px solid gray;
+	padding-bottom:0.25em;
+	margin-top:2em;
+	text-indent: 0.75em
+}
 
+/*--
+Table style
+--*/
 
+.table-head {
+	background-color: #B2B2B2;
+}
 
+.table-cell {
+	border-collapse: collapse;
+	border: 1px solid darkgray;
+	padding:0.25em;
+	font-size:0.8em;
+}
 
+.table-head-cell {
+	border:1px solid black;
+	text-align:left;
+}
 
+.table-button {
+	background-color:steelblue;
+	color:white;
+	width:4em;
+	border:none;
 
+}
 
+@media screen and (min-width:600px) {
+	.table-cell {
+		font-size:1em;
+		padding:0.5em;
+	}	
+}
+
+/*----
+code example container
+----*/
+
+.code-example-container {
+	background-color: #B2B2B2;
+	padding:0.75em 0.75em 0.75em 0.75em;
+}
+
+.code-example {
+	font-size:0.8em;
+	font-family: "Courier New" "sans-serif";
+}
+
+@media screen and (min-width:600px) {
+	.code-example {
+		font-size:1em;
+	}
+
+	.code-example-container {
+		padding:2em 2em 2em 3em;
+	}
+}
 
