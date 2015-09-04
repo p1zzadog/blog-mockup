@@ -22,7 +22,7 @@ GENERAL DESIGN
 
 .text-link:hover {
 	font-weight:bold;
-	color: SteelBlue;
+	color: forestgreen;
 }
 
 
@@ -89,7 +89,7 @@ DEFAULT MOBILE NAVBAR
 }
 
 .nav-list-anchor:hover{
-	color:SteelBlue;
+	color:forestgreen;
 	font-weight:bold;
 	background-color:white;
 	/*border:1px solid #306;*/
@@ -149,10 +149,10 @@ sidebar
 	}
 
 	.sidebar-content {
-	box-sizing: border-box;
-	background-color:lightgray;
-	padding:1em;
-	border-bottom:5px solid black;
+		box-sizing: border-box;
+		background-color:lightgray;
+		padding:1em;
+		border-bottom:5px solid black;
 	}
 
 	.sidebar-list {
@@ -359,13 +359,63 @@ comments form
 
 .submit-button {
 	width:50%;
+	height:2em;
+	line-height: 2em;
+	vertical-align: middle;
 	color:white;
-	background-color: steelblue;
+	background-color: forestgreen;
 	border:none;
+	margin-bottom:1em;
 }
 
 @media screen and (min-width: 600px) {
 	.comment-box {
 		width: 65%;
 	}
+}
+
+
+/*-----
+user comments
+-------*/
+
+.profile-pic {
+	float:left;
+}
+
+.sub-comment-container {
+	border-left:1px solid gray;
+	margin-left:3em;
+	padding-left:1em;
+}
+
+.comment-body {
+	/*clear:both;*/
+	font-size:0.9em;
+	padding-top:1em;
+}
+
+.comment-head {
+	/*margin: 2em 0 0 1em;
+	overflow:hidden;
+	position:relative;
+	left:2em;*/
+}
+
+.comment-head p {
+	margin:0;
+	overflow:hidden;
+	padding-left:1em;
+	position:relative;
+	top:0.5em;
+}
+
+.comment-head p:nth-child(2) {
+	font-weight:bold;
+}
+
+.comment-head p:nth-child(3) {
+	font-style:italic;
+	color:gray;
+	font-size:0.9em;
 }
