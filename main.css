@@ -263,16 +263,8 @@ user comments
 }
 
 .comment-body {
-	/*clear:both;*/
 	font-size:0.9rem;
 	padding-top:1rem;
-}
-
-.comment-head {
-	/*margin: 2em 0 0 1em;
-	overflow:hidden;
-	position:relative;
-	left:2em;*/
 }
 
 .comment-head p {
