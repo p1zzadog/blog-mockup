@@ -2,6 +2,10 @@ body {
 	background-color:gray;
 }
 
+html {
+	font-size:14px;
+}
+
 @media screen and (min-width: 600px) {
 	
 	.blog-content {
@@ -309,7 +313,7 @@ comments section
 
 .line-after {
 	display:inline-block;
-	width:59%;
+	width:50%;
 	line-height:1.5em;
 	vertical-align: middle;
 
